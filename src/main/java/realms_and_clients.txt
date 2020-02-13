@@ -1,0 +1,7 @@
+Keycloak keywords:
+
+Client: risorsa che ha bisogno di keycloak per autenticare un utente. In genere i client sono applicazioni o servizi che si appoggiano a Keycloak per la propria sicurezza, e per
+avere un single sign on. 
+
+Realm: un realm contiene degli utenti e gestisce le credenziali, i ruoli e i gruppi. Sono isolati gli uni dagli altri, e quando un utente si autentica, effettua il login nel realm
+all'interno del quale è gestito. In quanto isolati, possono gestire ed autenticare solo gli utenti in essi contenuti.
